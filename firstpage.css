@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+
+/* title */
+
+#bg {
+    position:fixed;
+
+  }
+
+/*.title {
+  text-align: center;
+  color: rgb(24, 23, 23);
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Overpass Mono', monospace;
+  text-decoration: underline;
+}*/
+
+
+#logo
+{
+    position:absolute;
+    z-index:300000;
+    top: -2.5%;
+    left:5%;  
+}
+.socialmedia
+{
+  position:absolute;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right:-100px;
+  background-color: rgba(0,0,0, 0.4);
+  z-index:300000;
+}
+#phone
+{
+  margin-left:1200px;
+  margin-top: 55px;
+  cursor: pointer;
+}
+#fb
+{
+  margin-left: 25px;
+  margin-top: 55px;
+  cursor: pointer;
+}
+#instagram
+{
+  margin-left: 15px;
+  margin-top: 54px;
+  cursor: pointer;
+}
+#linkedin
+{
+  margin-left: 10px;
+  margin-top: 55px;
+  cursor: pointer;
+}
+#twitter
+{
+  margin-left: 15px;
+  margin-top: 55px;
+  cursor: pointer;
+}
+#telegram
+{
+  margin-left: 12px;
+  margin-top: 55px;
+  cursor: pointer;
+}
+.vl1 {
+  border-left: 2px solid rgb(2, 2, 2);
+  height: 22px;
+  position: absolute;
+  margin-left: 1245px;
+  z-index:300000;
+  margin-top: 59px;
+}
+.vl2 {
+  border-left: 2px solid rgb(2, 2, 2);
+  height: 22px;
+  position: absolute;
+  margin-left:1300px;
+  z-index:300000;
+  margin-top: 59px;
+}
+.vl3 {
+  border-left: 2px solid rgb(2, 2, 2);
+  height: 22px;
+  position: absolute;
+  margin-left: 1352px;
+  z-index:300000;
+  margin-top: 59px;
+}
+.vl4 {
+  border-left: 2px solid rgb(2, 2, 2);
+  height: 22px;
+  position: absolute;
+  margin-left: 1402px;
+  z-index:300000;
+  margin-top: 59px;
+}
+.vl5 {
+  border-left: 2px solid rgb(2, 2, 2);
+  height: 22px;
+  position: absolute;
+  margin-left: 1447px;
+  z-index:300000;
+  margin-top: 59px;
+}
+#hd1{
+  position: absolute;
+  z-index: 1;
+  color: azure;
+  left: 470px;
+  top:300px;
+  font-weight: 900;
+  font-size: 75px;
+}
+#hd2{
+  position: absolute;
+  z-index: 1;
+  color: azure;
+  left: 570px;
+  top:380px;
+  font-weight:500;
+  font-size: 75px;
+}
